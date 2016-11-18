@@ -1,0 +1,73 @@
+.jumbotron {
+  height:95rem ;
+  background: url('../images/pexels-photo-25877.jpg') no-repeat fixed center;
+  background-size: cover;
+  margin: 0;
+}
+
+.jumbotron .container {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#jumbotron-logo {
+  width: 40%;
+}
+
+.navbar-brand {
+  height: 8rem;
+}
+
+.navbar-brand img {
+  height: 100%;
+}
+
+.nav {
+  margin-top: 1.5rem;
+  font-size: 14px;
+}
+
+#main-navbar-collapse li a {
+  color: #3f3f3f;
+  text-transform: uppercase;
+}
+
+#main-navbar-collapse li a:hover {
+  color: #000;
+}
+
+#btn-link #nav-btn {
+  background-color: #6d2e67;
+  border: none;
+  color: #fff;
+}
+
+#btn-link #nav-btn:hover {
+  background-color: #4f1e4a;
+}
+
+#about, #info {
+  padding: 8rem 0;
+}
+
+#about {
+  background: url('../images/crossword.png');
+}
+
+.section-header {
+  margin-bottom: 5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 5rem;
+  letter-spacing: -2px;
+}
+
+#about-image {
+  width: 100%;
+}
+
+#about-text {
+  font-size: 1.65rem;
+}
